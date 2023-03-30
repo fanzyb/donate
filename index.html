@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./app.css">
+
+    <title>My Profile Card</title>
+    <link rel="icon" type="image/png" href="img/avatar.png">
+</head>
+<body>
+    <div class="profileContainer">
+        <div class="img-container">
+            <img src="img/avatar.png" class="avatar" alt="profile">
+        </div>
+        <!--Add your biodata-->
+        <p class="full-name">Donasi Untuk Fantastic 4</p>
+        <p class="panggilan"></p>
+        <p class="skill">Scan Qris dibawah</p>
+        <p class="place">Support Gopay,ovo,dana,shopeepay,dll</p>
+        <!--Post Info-->
+        <div class="posts-info">
+            <p><img src="img/qris.png" class="qris"></p>
+        </div>
+           <!--Form-->
+           <p class="full-name">Isi Form dibawah</p>
+           <form class="contact__form" method="" action="">
+            <div class="form__group">
+               <div class="input__wrapper">
+                  <label class="input__label" for="name">Nama</label>
+                  <div class="input__field">
+                     <ion-icon name="person-outline"></ion-icon>
+                     <input class="input" autocomplete="off" type="text" name="name" id="name">
+                  </div>
+               </div>
+               <div class="input__wrapper">
+                  <label class="input__label" for="email">Instagram</label>
+                  <div class="input__field">
+                     <ion-icon name="mail-outline"></ion-icon>
+                     <input class="input" autocomplete="off" type="email" name="email" id="email">
+                  </div>
+               </div>
+            </div>
+            <div class="input__wrapper">
+               <label class="input__label" for="message">Pesan</label>
+               <div class="input__field">
+                  <textarea class="input textarea" name="messsage" id="message"></textarea>
+               </div>
+            </div>
+            <button class="action send">Send</button>
+         </form>
+        <!--Add your Social Media-->
+        <!--Ganti link pada <a href=""> , menjadi link sosial media yang digunakan--> 
+            <br> 
+        <p class="full-name">Sosmed Kita</p>
+        <div class="social-media">
+            <button class="instagram">
+            <a href="https://www.instagram.com/team.fant4stic" target="_blank" rel="noopener"><i class='bi bi-instagram' ></i></a>
+            </button>
+            <button class="youtube">
+                <a href="https://www.youtube.com/@teamfantastic4" target="_blank" rel="noopener"><i class='bi bi-youtube' ></i></a>
+                </button>
+        </div>
+        <!--Button follow & Message-->
+        <p class="full-name">Donatur</p>
+        <button class="action">
+            <a href="https://instagram.com/fanzirfan_" target="_blank" rel="noopener">@fanzirfan_ <br> Pesan: Semangat Kontennya</a>
+        </button>
+    </div>
+</body>
+</html>
