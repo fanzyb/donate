@@ -17,8 +17,8 @@ body {
     border-radius: 50%;
 }
 .qris {
-    max-width: 80%;
-    min-height: 80%;
+    max-width: 100%;
+    min-height: 100%;
 }
 .profileContainer {
     margin-top: 85px;
