@@ -248,3 +248,19 @@ body {
     letter-spacing: 2px;
     transition: transform 0.3s, opacity 0.3s;
 }
+
+.form-control {
+    background-color: #ffae00f5;
+    border: 0;
+    padding: 15px 20px;
+    height: 50px;
+    /* box-shadow: 0 3px 5px rgba(209, 209, 209, 0.5); */
+}
+
+.form-control:focus {
+    background-color: var(--background-secondary);
+}
+
+.form-group {
+    width: 300px;
+}
